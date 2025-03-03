@@ -13,7 +13,5 @@ func main() {
 		ctx.JSON(http.StatusOK, map[string]string{"status": "OK"})
 	})
 
-	// Hola
-
 	r.Run(":8000")
 }
