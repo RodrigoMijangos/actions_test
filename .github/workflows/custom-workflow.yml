@@ -1,0 +1,19 @@
+name: Custom Workflow
+
+on:
+    push:
+        branches:
+            - develop
+
+jobs:
+
+    deploy: 
+        runs-on: ubuntu-latest
+        steps:
+        - name: Hola Mundo
+          run: echo "Hola Mundo"
+        - name: Adios Mundo
+          run: echo "Adios Mundo"
+        - name: Esperar
+          run: sleep 5
+
